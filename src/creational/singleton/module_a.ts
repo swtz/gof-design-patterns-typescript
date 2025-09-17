@@ -1,9 +1,7 @@
-import { MyDatabaseClassic } from './db/my-database-classic';
+import { myDbModule } from './db/my-database-module';
 
-const myDbClassic = MyDatabaseClassic.instance;
+myDbModule.add({ age: 35, name: 'Maria' });
+myDbModule.add({ age: 53, name: 'Luiz' });
+myDbModule.add({ age: 65, name: 'Léo' });
 
-myDbClassic.add({ age: 35, name: 'Maria' });
-myDbClassic.add({ age: 53, name: 'Luiz' });
-myDbClassic.add({ age: 65, name: 'Léo' });
-
-export { myDbClassic };
+export { myDbModule };
