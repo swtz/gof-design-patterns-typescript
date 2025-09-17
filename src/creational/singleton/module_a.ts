@@ -1,7 +1,7 @@
-import { myDbModule } from './db/my-database-module';
+import { MyDbFunction } from './db/my-database-function';
 
-myDbModule.add({ age: 35, name: 'Maria' });
-myDbModule.add({ age: 53, name: 'Luiz' });
-myDbModule.add({ age: 65, name: 'Léo' });
+MyDbFunction.add({ age: 35, name: 'Maria' });
+MyDbFunction.add({ age: 53, name: 'Luiz' });
+MyDbFunction.add({ age: 65, name: 'Léo' });
 
-export { myDbModule };
+export { MyDbFunction };
