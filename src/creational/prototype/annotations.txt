@@ -13,3 +13,12 @@ do objeto1. Exemplo → constructor-function.js
   prototypes desse objeto.
   Obs.: lembrando que na herança o subclasse É a classe que ela estende.
   A subclasse é apenas uma EXTENSÃO da super classe.
+
+→ Quando usar deep copy?
+  Quando há a necessidade de ALTERAR propriedades que são mutáveis como
+  arrays e objetos. Nesse caso, quando o "clone" precisa modificar alguma
+  propriedade.
+
+A deep copy se torna mais pesada em termos computacionais, pois precisa
+instanciar novos objetos com base nos originais. Isso pode ter um custo
+bem elevado dependendo dos níveis de aninhamento que o prototype possui.
