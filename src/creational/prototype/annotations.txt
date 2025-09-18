@@ -1,0 +1,15 @@
+Design Pattern → Prototype
+
+→ Esse padrão é diferente da herança das POO clássica. Por exemplo,
+quando o JavaScript não encontra uma propriedade em um objeto, o
+interpretador a procura no prototype desse objeto.
+Dessa forma, caso um objeto2 possua o prototype de um objeto1,
+o objeto2 pode sobrescrever ou fazer 'shallowing' da propriedade
+do objeto1. Exemplo → constructor-function.js
+
+→ Por que é diferente da herança?
+  Porque o prototype tem um comportamento de DELEGAÇÃO. Esse padrão
+  delega o acesso de uma propriedade para outro objeto na cadeia de
+  prototypes desse objeto.
+  Obs.: lembrando que na herança o subclasse É a classe que ela estende.
+  A subclasse é apenas uma EXTENSÃO da super classe.
