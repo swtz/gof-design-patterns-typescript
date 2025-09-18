@@ -7,3 +7,10 @@ usado para construir esses objetos.
 → Padrão Composite pode ser representado por uma árvore. Logo, os produtos
 finais ou reais desse padrão serão chamados de 'leaf', pois são os objetos
 que ficam nas extremidades dessa árvore.
+
+→ Interface Segregation: se eu não preciso dos métodos de uma interface, não
+há necessidade de implementá-la em uma classe. Isso possibilita a criação de
+interfaces mais enxutas.
+
+→ Participante Director: classe que é responsável por padronizar o processo
+de construção dos objetos. Deixa o código cliente ainda mais limpo.
