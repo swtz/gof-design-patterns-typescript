@@ -1,0 +1,9 @@
+Padrão de Projeto → Builder
+
+Serão criadas estruturas de objetos usando o design pattern Composite.
+O Coach-Luiz não entrará em detalhes sobre esse padrão, mas o Builder será
+usado para construir esses objetos.
+
+→ Padrão Composite pode ser representado por uma árvore. Logo, os produtos
+finais ou reais desse padrão serão chamados de 'leaf', pois são os objetos
+que ficam nas extremidades dessa árvore.
