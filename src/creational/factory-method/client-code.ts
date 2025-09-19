@@ -1,9 +1,11 @@
-import { Car } from './vehicle/car';
+import { CarFactory } from './factories/car-factory';
 
-const fusca = new Car('fusca');
+const carFactory = new CarFactory();
+
+const fusca = carFactory.getVehicle('fusca');
 fusca.pickUp('Leonard');
 fusca.stop();
 
-const celta = new Car('celta');
+const celta = carFactory.getVehicle('celta');
 celta.pickUp('Mary');
 celta.stop();
