@@ -8,6 +8,6 @@ export class IndividualCar implements Vehicle {
   ) {}
 
   pickUp(): void {
-    console.log(`${this.name} está buscando ${this.customer.name}`);
+    console.log(`${this.name} está buscando ${this.customer.name} (PF)`);
   }
 }
