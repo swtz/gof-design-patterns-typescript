@@ -1,11 +1,12 @@
 {
   "code-runner.executorMap": {
     "typescript": "clear && npx ts-node --files --transpile-only",
-    "javascript": "clear && node",
+    "javascript": "clear && node"
   },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "always",
     "source.fixAll": "always"
   },
-  "eslint.useFlatConfig": false
+  "eslint.useFlatConfig": false,
+  "window.zoomLevel": 0.5
 }
